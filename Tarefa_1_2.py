@@ -119,3 +119,8 @@ def style_table(styler):
 #print("\nLog2 enrichment (não fosforiladas):")
 #print(log2_unknownP.round(2).iloc[:, :5])  # idem
  
+ # Testar se existem linhas com "Phosphoserine"
+phospho_test = features[features["attributes"].str.contains("Phosphoserine", case=False)]
+print(f"Total de linhas com 'Phosphoserine': {len(phospho_test)}")
+print(phospho_test.head())
+
