@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+
 # --- 1. Ler ficheiros da UniProt ---
 
 # Lê apenas a coluna das sequências
