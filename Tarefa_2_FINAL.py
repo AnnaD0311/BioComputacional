@@ -122,5 +122,6 @@ def style_table(styler):
 
 #Esta é a tabela de valores de log₂(f / f_global) para as posições relativas em torno das serinas fosforiláveis (ou seja, serinas anotadas como Phosphoserine).
 print(log2_knownP)
+print(log2_notP)
 log2_knownP.to_csv("log2_knownP.csv")
 log2_notP.to_csv("log2_notP.csv")

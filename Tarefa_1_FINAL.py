@@ -71,8 +71,7 @@ df_serinas = construir_dataframe(records)
 
 # === 5. Exportação para CSV ===
 
-df_serinas.to_csv("C:/Users/Jordão Bruno/Desktop/Anna_Python/BioComputacional/Versão_Super/serinas_fosforilaveis.csv",
-                  index=False)
+df_serinas.to_csv("serinas_fosforilaveis.csv", index=False)
 
 # === 6. Estatísticas ===
 
@@ -87,5 +86,3 @@ print(f"Serinas não fosforiláveis: {nao_fosforilaveis}")
 # === 7. Mostrar primeiras 9 linhas ===
 
 print(df_serinas.iloc[:9])
-
-
